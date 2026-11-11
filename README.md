@@ -18,13 +18,15 @@ An analysis of about 100,000 orders from Olist, a Brazilian online marketplace, 
 2. Profiled order volumes, date range and order status
 3. Analysed revenue by product category and reconciled the total against a direct sum
 4. Built monthly revenue growth using a CTE and the LAG window function
-5. Next: delivery time versus review scores, then a one-page Power BI report
+5. Analysed delivery time against review scores. I averaged the score per order first, because 551 orders had more than one review
+6. Next: export the results and build a one-page Power BI report
 
 ## Key findings so far
 - Delivered revenue is about 13.2M across 71 categories
 - The top five categories make up about 40% of revenue, so it is spread widely
 - About 1.3% of revenue has no English category. An inner join dropped it, so I used a left join and checked the total
 - Monthly revenue grew from about 112K in January 2017 to about 482K in July 2017. The early growth rates (110% in February 2017) come from a very small starting base
+- Orders delivered in 15+ days average a review score of 3.72, against 4.42 for orders delivered within 7 days. About 31% of delivered orders fall in the slow group
 
 ## Skills shown
 SQL joins (inner and left), subqueries, CTEs, window functions (LAG), aggregation, and reconciling results against a control total.
