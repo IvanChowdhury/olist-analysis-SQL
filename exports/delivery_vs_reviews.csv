@@ -1,0 +1,4 @@
+delivery_bucket,orders,avg_delivery_days,avg_review_score
+0-7 days,25933,4.7,4.42
+8-14 days,39997,10.1,4.31
+15+ days,29894,22.6,3.72
