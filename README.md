@@ -2,7 +2,7 @@
 
 An analysis of about 100,000 orders from Olist, a Brazilian online marketplace, to understand what drives revenue. SQL is used for the analysis, and a one-page Power BI report summarises the results.
 
-<img width="1017" height="631" alt="image" src="https://github.com/user-attachments/assets/24fcdc36-992e-4c3f-b30b-206e9e34fd04" />
+<img width="942" height="527" alt="image" src="https://github.com/user-attachments/assets/4f7bc854-7a5e-4d3b-8e8b-4d37036355aa" />
 
 
 ## Data
